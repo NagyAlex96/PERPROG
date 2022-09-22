@@ -42,7 +42,9 @@ namespace _01_Ora_Loverseny
 
         public override string ToString()
         {
-            return $"{this.name}: {this.distance}";
+            //return $"{this.name}: {this.distance}";
+
+            return $"{name} : {"*".PadLeft(distance)}";
         }
 
         public void Step()
