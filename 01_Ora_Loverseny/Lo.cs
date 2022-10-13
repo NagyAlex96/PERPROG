@@ -34,7 +34,7 @@ namespace _01_Ora_Loverseny
 
         public Lo()
         {
-            this.name = "Lo" + (++index);
+            this.name = "Lo" + (++index).ToString().PadLeft(2, '0');
             this.horseMan = new Zsoke(random.Next(155, 186), random.Next(45, 76));
             this.luck = random.Next(1, 100);
             this.distance = 0;

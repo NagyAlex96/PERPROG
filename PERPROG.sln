@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Ora_Loverseny", "01_Ora_Loverseny\01_Ora_Loverseny.csproj", "{3E7D72E5-A06F-4DE3-AF14-7225DE988CA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Ora_Loverseny", "01_Ora_Loverseny\01_Ora_Loverseny.csproj", "{3E7D72E5-A06F-4DE3-AF14-7225DE988CA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Ora_Async", "02_Ora\02_Ora_Async.csproj", "{E087CD17-7B82-4148-8C45-BC8B70F52B74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Ora_Async_Console", "02_Ora_Async_Console\02_Ora_Async_Console.csproj", "{0AD7EA24-AC60-4DCD-AA27-1461F921F32C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Ora_Lock_KonzolraIro", "03_Ora_Lock_KonzolraIro\03_Ora_Lock_KonzolraIro.csproj", "{4E4FA60D-DDA4-402A-994A-9B8209538CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Ora_DeathStar", "04_Ora_DeathStar\04_Ora_DeathStar.csproj", "{D5CC0E7A-41F2-4F4B-B067-FDAD9EF79AF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{3E7D72E5-A06F-4DE3-AF14-7225DE988CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E7D72E5-A06F-4DE3-AF14-7225DE988CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E7D72E5-A06F-4DE3-AF14-7225DE988CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E087CD17-7B82-4148-8C45-BC8B70F52B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E087CD17-7B82-4148-8C45-BC8B70F52B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E087CD17-7B82-4148-8C45-BC8B70F52B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E087CD17-7B82-4148-8C45-BC8B70F52B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD7EA24-AC60-4DCD-AA27-1461F921F32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD7EA24-AC60-4DCD-AA27-1461F921F32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD7EA24-AC60-4DCD-AA27-1461F921F32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD7EA24-AC60-4DCD-AA27-1461F921F32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4FA60D-DDA4-402A-994A-9B8209538CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4FA60D-DDA4-402A-994A-9B8209538CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4FA60D-DDA4-402A-994A-9B8209538CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4FA60D-DDA4-402A-994A-9B8209538CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5CC0E7A-41F2-4F4B-B067-FDAD9EF79AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5CC0E7A-41F2-4F4B-B067-FDAD9EF79AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5CC0E7A-41F2-4F4B-B067-FDAD9EF79AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5CC0E7A-41F2-4F4B-B067-FDAD9EF79AF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

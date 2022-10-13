@@ -33,13 +33,16 @@ namespace _01_Ora_Loverseny
                       .Select(i => new Lo())
                       .ToList();
 
+            //lontrunning saját önálló szál
             var task = horses.Select(h => new Task(() => hourseClass.Step(), TaskCreationOptions.LongRunning)).ToList();
 
             task.Add(new Task(() => 
             {
-                while (true)
+                //while (!horses.All(l => l.hasFinished))
+                while(horses.Any(l => !l.hasFinished))
                 {
-                    Console.Clear();
+                    //Console.Clear();
+                    Console.SetCursorPosition(0, 0);
                     foreach (var item in horses)
                     {
                         Console.WriteLine(item);
